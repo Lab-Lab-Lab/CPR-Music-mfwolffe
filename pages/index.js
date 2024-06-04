@@ -30,15 +30,6 @@ function Index() {
             respond, connect) described in National Standards for Arts
             Education.
           </p>
-          <button
-            type="button"
-            onClick={() => {
-              throw new Error('Sentry Frontend Error');
-            }}
-          >
-            Throw error
-          </button>
-          ;
         </Col>
         <Col
           sm={2}
